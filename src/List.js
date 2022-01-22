@@ -1,7 +1,7 @@
 import React from "react";
 
 const List = () => {
-  return <ul></ul>;
+  return <ul>Lista</ul>;
 };
 
 const Person = () => {

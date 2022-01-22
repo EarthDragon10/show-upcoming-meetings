@@ -1,11 +1,24 @@
+import react, { useState } from "react";
 import List from "./List";
 import data from "./data";
 
 function App() {
+  const [people, setPeople] = useState(data);
+  console.log(people);
+
   return (
-    <div className="App">
-      <h2> App</h2>
-    </div>
+    <section>
+      <div className="container">
+        <h2 style={{ color: "var(--bg-blue)" }}>Prossimi incontri</h2>
+        <div className="people-list">
+          <List />
+        </div>
+        <div className="btn-group">
+          <button className="btn btn-reset">Reload</button>
+          <button className="btn btn-delete">Delete All</button>
+        </div>
+      </div>
+    </section>
   );
 }
 
