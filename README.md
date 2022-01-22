@@ -6,7 +6,7 @@
 
 - I am available to work.
 - I am a wearer of hearing aids.
-- I am currently learning React, in the future I will study React.
+- I am currently learning React.
 - Nice Facts: I'm trying to learn shuffledance.
 
 # Show-Upcoming-Meetings
