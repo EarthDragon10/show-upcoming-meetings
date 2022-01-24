@@ -153,7 +153,7 @@ section {
 .user-list li {
   padding: 1rem;
   width: 100%;
-  border-bottom: 1px solid var(--divider-color);
+  border-bottom: 2px solid var(--divider-color);
 }
 
 article {
@@ -231,16 +231,17 @@ article .person-info p {
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
-  -moz-justify-content: space-between;
-  -webkit-justify-content: space-between;
-  -ms-justify-content: space-between;
-  justify-content: space-between;
+  -moz-justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
   width: 100%;
 }
 
 .btn-group .btn-reset {
   background-color: var(--secondary-blue);
   color: var(--bg-blue);
+  padding: 1rem 1.5rem;
 }
 
 .btn-group .btn-reset:hover {
@@ -252,6 +253,7 @@ article .person-info p {
   background-color: transparent;
   color: var(--delete-color);
   border: 2px solid var(--delete-color);
+  padding: 1rem 1.5rem;
 }
 
 .btn-group .btn-delete:hover {
