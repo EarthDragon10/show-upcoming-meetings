@@ -24,7 +24,7 @@
 
 # General Info
 
-### Link: [show-upcoming-meetings](https://zen-mirzakhani-9a17a8.netlify.app/)
+### Link: [show-upcoming-meetings](https://show-upcoming-meetings.netlify.app/)
 
 # Description
 
